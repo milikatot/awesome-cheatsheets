@@ -63,7 +63,7 @@ CHEATSHEET C#
     //To concatenate between strings, use the plus operator:
     string firstName = "Erin";
     string lastName = "Roger";
-    string fullName = firstName + " " + lastName;
+    string fullName = $"{firstName} {lastName}";
 
     //To add one string to another, use the += operator:
     string secondLastName = "Green";
